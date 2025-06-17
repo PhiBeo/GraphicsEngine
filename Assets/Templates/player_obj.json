@@ -1,0 +1,34 @@
+{
+  "Components": {
+    "TransformComponent": {
+      "Position": [ 0.0, 0.0, 1.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "RigidBodyComponent": {
+      "Mass": 1.0,
+      "ColliderData": {
+        "Shape": "Hull",
+        "HalfExtents": [ 1.0, 1.0, 1.0 ],
+        "Origin": [ 0, 1.0, 0.0 ]
+      }
+    },
+    "CustomCharacterMovementComponent": {
+      "Speed": 2,
+      "RunSpeed": 3
+    },
+    "GunShootComponent": {
+
+    },
+    "ModelComponent": {
+      "FileName": "../../Assets/Models/Swat_Guy/Swat.model",
+      "Animations": [
+        "../../Assets/Models/Swat_Guy/Idle.animset",
+        "../../Assets/Models/Swat_Guy/Run.animset"
+      ]
+    },
+    "AnimatorComponent": {
+
+    }
+  }
+}

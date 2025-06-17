@@ -1,0 +1,53 @@
+{
+    "Capacity": 100,
+    "Services": {
+        "CameraService": {
+
+        },
+        "RenderService": {
+            "Direction": [ 1.0, -0.0, 1.0 ],
+            "Ambient": [ 0.5, 0.5, 0.5, 1.0 ],
+            "Diffuse": [ 0.7, 0.7, 0.7, 1.0 ],
+            "Specular": [ 0.9, 0.9, 0.9, 1.0 ]
+        },
+        "PhysicsService": {
+
+        },
+        "CameraFollowService": {
+
+        },
+        "UIRenderService": {
+
+        },
+        "BulletShootService": {
+
+        }
+    },
+    "GameObjects": {
+        "Camera": {
+            "Template": "../../Assets/Templates/follow_camera.json"
+        },
+        "Ground": {
+            "Template": "../../Assets/Templates/ground_obj.json"
+        },
+      "Swat": {
+        "Template": "../../Assets/Templates/player_obj.json"
+      },
+      "Bullet0": {
+        "Template": "../../Assets/Templates/bullet_obj.json"
+      },
+      "Bullet1": {
+        "Template": "../../Assets/Templates/bullet_obj.json"
+      },
+      "Bullet2": {
+        "Template": "../../Assets/Templates/bullet_obj.json"
+      },
+      "Bullet3": {
+        "Template": "../../Assets/Templates/bullet_obj.json"
+      },
+      "Bullet4": {
+        "Template": "../../Assets/Templates/bullet_obj.json"
+      }
+
+    }
+}

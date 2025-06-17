@@ -1,0 +1,27 @@
+{
+  "Components": {
+    "TransformComponent": {
+      "Position": [ 0.0, -1.0, 1.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "BulletComponent": {
+      "LifeTime": 5,
+      "Speed": 15
+    },
+    "MeshComponent": {
+      "Shape": {
+        "Type": "Sphere",
+        "Slices": 30,
+        "Rings": 30,
+        "Radius": 0.05
+      },
+      "Material": {
+
+      },
+      "Textures": {
+        "DiffuseMap": "../../Assets/Images/sprites/blue.jpg"
+      }
+    }
+  }
+}

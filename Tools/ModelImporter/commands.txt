@@ -1,0 +1,6 @@
+-scale 0.01 ../../Assets/Models/Character01/PumpkinhulkLShaw.fbx ../../Assets/Models/Character01/PumpkinhulkLShaw.model
+-scale 0.01 -animOnly 1 ../../Assets/Models/Character01/SillyDancing.fbx ../../Assets/Models/Character01/SillyDancing.model
+
+-scale 0.01 ../../Assets/Models/Swat_Guy/Swat.fbx ../../Assets/Models/Swat_Guy/Swat.model
+-scale 0.01 -animOnly 1 ../../Assets/Models/Swat_Guy/Idle.fbx ../../Assets/Models/Swat_Guy/Idle.model
+-scale 0.01 -animOnly 1 ../../Assets/Models/Swat_Guy/Run.fbx ../../Assets/Models/Swat_Guy/Run.model
