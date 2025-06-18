@@ -22,7 +22,7 @@ A custom graphics engine built from scratch as part of a school project. The goa
 
 ### Prerequisites
 
-- C++17 or later
+- Visual Studio 2022 - C++17
 
 ### Installation
 Project clone command:
